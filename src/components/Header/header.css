@@ -1,0 +1,50 @@
+nav.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaço entre logo e restante do conteúdo */
+    align-items: flex-start; /* Alinha verticalmente os itens no centro */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%; /* Garante que a navbar ocupe toda a largura */
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+  }
+  
+  nav.navbar.scrolled {
+    padding: 10px 0; /* Mantém o padding consistente */
+    background-color: #121212;
+  }
+  
+  nav.navbar a.navbar-brand {
+    width: auto;
+  }
+  
+  nav.navbar .navbar-nav {
+    position: absolute;
+    top: 20px;
+    left: 18%;
+  }
+  
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: #000 !important;
+    letter-spacing: 0.8px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: normal;
+    opacity: 0.75;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  nav.navbar .navbar-nav .nav-link.navbar-link:hover,
+  nav.navbar .navbar-nav .nav-link.navbar-link.active {
+    opacity: 1;
+  }
+
+  img{
+    width: 100px;
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+  }
