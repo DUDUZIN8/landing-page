@@ -1,0 +1,38 @@
+import React from 'react';
+import Whatsapp from '../../assets/img/whatsapp.png'; 
+import { IoCart } from 'react-icons/io5';
+import { FaTruck } from "react-icons/fa";
+import { PiStampFill } from "react-icons/pi";
+import './page1.css';
+
+export const firstPage = () => {
+    return(
+      <div className='container'>
+        <div className="container-content">
+            <p className='titulo'>Capas de Antena de Alarme:</p>
+            <div className='text-container'>
+               <h2>Atraia Cliente para Sua Loja com <h2 className='text-red'>Qualidade Fotográfica</h2> e <h2 className='text-red'>Garantia de Energia!</h2></h2>
+               <p className='small'>Não está atraindo público para dentro da loja? Quer ter tranquilidade com a logística de sua campanha? O My Logo te ajuda!</p>
+            </div>
+            <div className="button-content">
+               <button className='button whatsapp'>
+                <img src={Whatsapp} alt='Whatsapp'/>
+                Solicitar Orçamento
+               </button>
+            </div>
+           <div className='things'>
+             <IoCart className='position-icon'/>
+             <p className='guide'>Compra 100% Segura</p> 
+           </div>
+           <div className='things'>
+             <FaTruck className='position-icon'/>
+             <p className='guide'>Enviamos para Todo Brasil</p> 
+           </div>
+           <div className='things'>
+             <PiStampFill className='position-icon'/>
+             <p className='guide'>Resultados Comprovados</p> 
+           </div>
+        </div>
+      </div>
+    )
+}
