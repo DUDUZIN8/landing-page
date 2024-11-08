@@ -1,5 +1,5 @@
 import React from 'react'
-import Whatsapp from '../../assets/img/whatsapp.png'
+import { RiWhatsappLine } from 'react-icons/ri'
 import { IoCart } from 'react-icons/io5'
 import { FaTruck } from 'react-icons/fa'
 import { PiStampFill } from 'react-icons/pi'
@@ -22,21 +22,39 @@ export const Pagina = () => {
       </div>
       <div className='button-content'>
         <button className='button-whatsapp'>
-          <img src={Whatsapp} className='whatsapp-image' alt='Whatsapp' />
+          <RiWhatsappLine className='whatsapp-image' />
           Solicitar Orçamento
         </button>
       </div>
-      <div className='things'>
-        <IoCart className='position-icon' />
-        <p className='guide'>Compra 100% Segura</p>
+      <div className='things-container'>
+        <div className='things'>
+          <IoCart size={35} className='position-icon' />
+          <p className='guide'>Compra 100% Segura</p>
+        </div>
+        <div className='things'>
+          <FaTruck size={35} className='position-icon' />
+          <p className='guide'>Enviamos para Todo Brasil</p>
+        </div>
+        <div className='things'>
+          <PiStampFill size={35} className='position-icon' />
+          <p className='guide'>Resultados Comprovados</p>
+        </div>
       </div>
-      <div className='things'>
-        <FaTruck className='position-icon' />
-        <p className='guide'>Enviamos para Todo Brasil</p>
+      <div className='container-text-black'>
+        <div className='text-black'>
+          <p>
+            ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
+            PARA TODO BRASIL
+          </p>
+        </div>
       </div>
-      <div className='things'>
-        <PiStampFill className='position-icon' />
-        <p className='guide'>Resultados Comprovados</p>
+      <div className='container-text-red'>
+        <div className='text-red'>
+          <p className='red'>
+            ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
+            PARA TODO BRASIL
+          </p>
+        </div>
       </div>
     </div>
   )

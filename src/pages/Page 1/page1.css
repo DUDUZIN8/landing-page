@@ -9,10 +9,10 @@
 
 .titulo {
   color: black;
-  font-family: Roboto;
+  font-family: Sora;
   position: absolute;
   top: 10pc;
-  left: 60px;
+  left: 48px;
   font-weight: 800;
   font-size: 30px;
 }
@@ -24,8 +24,8 @@
 
 .texto {
   position: relative;
-  left: 60px;
-  font-family: Roboto;
+  left: 42px;
+  font-family: Sora;
   font-size: 50px;
 }
 
@@ -34,16 +34,100 @@
 }
 
 .small {
-  margin-left: 60px;
+  margin-top: 20px;
+  margin-left: 50px;
   font-weight: bolder;
-  font-family: Roboto;
+  font-family: Sora;
 }
 
 .button-content {
-  width: 400px;
+  width: 350px;
+  padding: 10px;
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 40px;
   background: linear-gradient(90deg, #00d04f, #5efa94);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-whatsapp {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  left: -80px;
+  font-family: Sora;
+  cursor: pointer;
+  font-size: 26px;
 }
 
 .whatsapp-image {
-  width: 100px;
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  position: relative;
+  bottom: 2px;
+  left: 90%;
+}
+
+.things-container {
+  display: flex;
+  gap: 20px; /* Espaçamento entre os itens */
+  align-items: center; /* Alinha os itens verticalmente */
+  position: relative;
+  left: 50px;
+  top: 55px;
+}
+
+.things {
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto verticalmente */
+}
+
+.position-icon {
+  color: black;
+  margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.guide {
+  color: black;
+  font-size: 1rem; /* Ajusta o tamanho do texto */
+  max-width: 150px;
+  font-family: Sora;
+}
+
+.container-text-black {
+  position: relative;
+  right: 6px;
+  top: 25pc;
+  width: 110%;
+  height: 70px;
+  background-color: #000;
+  transform: rotate(5deg);
+}
+
+.text-black {
+  color: #fff;
+  font-size: 60px;
+  white-space: nowrap;
+  font-family: Sora;
+}
+
+.container-text-red {
+  position: relative;
+  right: 6px;
+  bottom: 20px;
+  top: 19pc;
+  width: 110%;
+  height: 70px;
+  background-color: #fff;
+  transform: rotate(-5deg);
+}
+
+.text-red {
+  color: red;
+  font-size: 60px;
+  white-space: nowrap;
+  font-family: Sora;
 }

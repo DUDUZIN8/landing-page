@@ -35,6 +35,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   opacity: 0.75;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
+  font-family: Sora;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link:hover,
