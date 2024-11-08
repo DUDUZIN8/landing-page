@@ -5,7 +5,7 @@ import { FaTruck } from "react-icons/fa";
 import { PiStampFill } from "react-icons/pi";
 import './page1.css';
 
-export const firstPage = () => {
+export const Pagina = () => {
     return(
       <div className='container'>
         <div className="container-content">
