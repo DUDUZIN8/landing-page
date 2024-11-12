@@ -1,0 +1,278 @@
+.container-page2 {
+  background: linear-gradient(#ff2943, #700d06);
+  margin-top: 238px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ajuste conforme necessário */
+  color: #fff;
+}
+
+.quader-white {
+  width: 260px;
+  height: 8px;
+  background-color: white;
+  margin: 20px 0;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.quader-white::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 8px;
+  background-color: #fff;
+  transform: skewX(-50deg);
+  transform-origin: bottom right;
+}
+
+.title {
+  position: relative;
+  left: 30px;
+  font-size: 50px;
+  font-family: Sora;
+  margin: 20px 0;
+}
+
+.text2 {
+  position: relative;
+  left: 30px;
+  font-size: 18px;
+  max-width: 600px;
+  line-height: 2;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.bolder-text {
+  position: relative;
+  left: 30px;
+  font-weight: bold;
+  font-family: Sora;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+
+.texto2 {
+  position: relative;
+  left: 30px;
+  font-size: 18px;
+  line-height: 2;
+  margin: 10px 0;
+}
+
+.button-content2 {
+  width: 350px;
+  padding: 10px;
+  height: 60px;
+  margin-left: 35px;
+  margin-top: 40px;
+  background: linear-gradient(#41e45b, #04b720);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-whatsapp2 {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  left: -80px;
+  font-family: Sora;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.whatsapp-image2 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  position: relative;
+  bottom: 2px;
+  left: 90%;
+}
+
+.things-container2 {
+  position: relative;
+  left: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+  top: 40px;
+}
+
+.things2 {
+  display: flex;
+  align-items: center;
+}
+
+.position-icon2 {
+  color: white;
+  margin-right: 8px;
+}
+
+.guide2 {
+  color: white;
+  font-size: 1rem;
+  max-width: 150px;
+  font-family: Sora;
+}
+
+.image-background {
+  position: absolute;
+  right: -80px;
+  bottom: 40%;
+}
+
+.container-part2 {
+  margin-top: 10pc;
+  margin-left: 45pc;
+}
+
+.quader-white-part2 {
+  width: 170px;
+  height: 4px;
+  background-color: white;
+  position: relative;
+}
+
+.quader-white-part2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 4px;
+  background-color: #fff;
+  transform: skewX(-50deg);
+  transform-origin: bottom right;
+}
+
+.title-2 {
+  font-size: 24px;
+  font-family: Sora;
+  font-weight: 100;
+  margin: 10px 0;
+}
+
+.txt {
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+}
+
+.text-part2 {
+  position: relative;
+  top: 20px;
+  line-height: 2;
+}
+
+.text-part23 {
+  position: relative;
+  top: 50px;
+  line-height: 2;
+}
+
+.container-quaders {
+  display: flex;
+  flex-direction: column; /* Coloca cada linha (quadrado + texto) uma abaixo da outra */
+  gap: 10px; /* Espaço entre cada linha */
+  margin-top: 70px;
+}
+
+.quader-container {
+  display: flex;
+  align-items: center; /* Alinha o quadrado e o texto no centro verticalmente */
+  gap: 10px; /* Espaço entre o quadrado e o texto */
+}
+
+.quader1,
+.quader2,
+.quader3 {
+  border: 2px solid #fff;
+  padding: 10px;
+  width: 20px; /* Aumentando para melhor visualização */
+  height: 20px; /* Aumentando para melhor visualização */
+}
+
+.quader2 {
+  background-color: #fff;
+}
+
+.button-content-part2 {
+  width: 350px;
+  padding: 10px;
+  height: 60px;
+  margin-left: 5px;
+  margin-top: 40px;
+  background: linear-gradient(#41e45b, #04b720);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-whatsapp-part2 {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  font-family: Sora;
+  left: 38pc;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.whatsapp-image-part2 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  position: relative;
+  bottom: 2px;
+  left: 90%;
+}
+
+.things-container-part2 {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  top: 50px;
+}
+
+.things-part2 {
+  display: flex;
+  align-items: center;
+}
+
+.position-icon-part2 {
+  color: white;
+  margin-right: 8px;
+}
+
+.guide-part2 {
+  color: white;
+  font-size: 1rem;
+  max-width: 150px;
+  font-family: Sora;
+}
+
+.image-woman {
+  width: 70%;
+  position: relative;
+  right: 40pc;
+  bottom: 35pc;
+}
+
+.background-white {
+  width: 35%;
+  position: absolute;
+  height: 600px;
+  border-radius: 10px;
+  left: 7pc;
+  bottom: 37pc;
+  background-color: #fff;
+}

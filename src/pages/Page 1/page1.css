@@ -19,7 +19,7 @@
 
 .text-container {
   color: black;
-  max-width: 750px;
+  max-width: 720px;
 }
 
 .texto {
@@ -46,7 +46,7 @@
   height: 60px;
   margin-left: 50px;
   margin-top: 40px;
-  background: linear-gradient(90deg, #00d04f, #5efa94);
+  background: linear-gradient(#41e45b, #04b720);
   border-radius: 10px;
   cursor: pointer;
 }
