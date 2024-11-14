@@ -126,7 +126,7 @@
 .image-background {
   position: absolute;
   right: -80px;
-  bottom: 40%;
+  bottom: 55%;
 }
 
 .container-part2 {
@@ -136,7 +136,7 @@
 
 .quader-white-part2 {
   width: 170px;
-  height: 4px;
+  height: 7px;
   background-color: white;
   position: relative;
 }
@@ -147,7 +147,7 @@
   bottom: 0;
   right: 0;
   width: 20px;
-  height: 4px;
+  height: 7px;
   background-color: #fff;
   transform: skewX(-50deg);
   transform-origin: bottom right;
@@ -263,16 +263,16 @@
 .image-woman {
   width: 70%;
   position: relative;
-  right: 40pc;
+  right: 43pc;
   bottom: 35pc;
 }
 
 .background-white {
-  width: 35%;
+  width: 33%;
   position: absolute;
   height: 600px;
   border-radius: 10px;
-  left: 7pc;
-  bottom: 37pc;
+  left: 6pc;
+  bottom: 93pc;
   background-color: #fff;
 }
