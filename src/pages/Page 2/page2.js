@@ -9,44 +9,46 @@ import './page2.css'
 export const Pagina2 = () => {
   return (
     <div className='container-page2' id='products'>
-      <div className='quader-white'></div>
-      <h2 className='title'>Esse produto serve pra mim?</h2>
-      <p className='text2'>
-        Com experiência de 2 décadas de Mercado Publicitário o My Logo produz
-        capas de antena de alarme com qualidade fotográfica e garantia de prazo
-        de entrega!
-      </p>
-      <p className='bolder-text'>
-        Não está atraindo público para dentro da loja? <br /> E quer ter
-        tranquilidade com a logística de sua campanha?
-      </p>
-      <p className='texto2'>
-        A capa de antena de alarme é uma poderosa mídia, com grande capacidade
-        de <br /> atrair clientes para dentro do ponto de venda!
-        <br /> Produza com quem tem grande compromisso com a logística da tua{' '}
-        <br />
-        campanha!
-      </p>
-      <div className='button-content2'>
-        <button className='button-whatsapp2'>
-          <RiWhatsappLine className='whatsapp-image2' />
-          Solicitar Orçamento
-        </button>
+      <div className='container-content'>
+        <div className='quader-white'></div>
+        <h2 className='title'>Esse produto serve pra mim?</h2>
+        <p className='text2'>
+          Com experiência de 2 décadas de Mercado Publicitário o My Logo produz
+          capas de antena de alarme com qualidade fotográfica e garantia de
+          prazo de entrega!
+        </p>
+        <p className='bolder-text'>
+          Não está atraindo público para dentro da loja? <br /> E quer ter
+          tranquilidade com a logística de sua campanha?
+        </p>
+        <p className='texto2'>
+          A capa de antena de alarme é uma poderosa mídia, com grande capacidade
+          de <br /> atrair clientes para dentro do ponto de venda!
+          <br /> Produza com quem tem grande compromisso com a logística da tua{' '}
+          <br />
+          campanha!
+        </p>
+        <div className='button-content2'>
+          <button className='button-whatsapp2'>
+            <RiWhatsappLine className='whatsapp-image2' />
+            Solicitar Orçamento
+          </button>
+        </div>
+        <div className='things-container2'>
+          <div className='things2'>
+            <IoCart size={35} className='position-icon2' />
+            <p className='guide2'>Compra 100% Segura</p>
+          </div>
+          <div className='things2'>
+            <FaTruck size={35} className='position-icon2' />
+            <p className='guide2'>Enviamos para Todo Brasil</p>
+          </div>
+          <div className='things2'>
+            <PiStampFill size={35} className='position-icon2' />
+            <p className='guide2'>Resultados Comprovados</p>
+          </div>
+        </div>{' '}
       </div>
-      <div className='things-container2'>
-        <div className='things2'>
-          <IoCart size={35} className='position-icon2' />
-          <p className='guide2'>Compra 100% Segura</p>
-        </div>
-        <div className='things2'>
-          <FaTruck size={35} className='position-icon2' />
-          <p className='guide2'>Enviamos para Todo Brasil</p>
-        </div>
-        <div className='things2'>
-          <PiStampFill size={35} className='position-icon2' />
-          <p className='guide2'>Resultados Comprovados</p>
-        </div>
-      </div>{' '}
       <img src={fundo2} alt='Fundo' className='image-background' />
       <div className='container-part2'>
         <div className='quader-white-part2'></div>

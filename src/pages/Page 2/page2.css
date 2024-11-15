@@ -8,13 +8,17 @@
   color: #fff;
 }
 
+.container-content {
+  margin-top: 90px;
+}
+
 .quader-white {
   width: 260px;
   height: 8px;
   background-color: white;
   margin: 20px 0;
   position: relative;
-  top: 20px;
+  top: 10px;
   left: 30px;
 }
 
@@ -35,7 +39,6 @@
   left: 30px;
   font-size: 50px;
   font-family: Sora;
-  margin: 20px 0;
 }
 
 .text2 {
@@ -45,7 +48,7 @@
   max-width: 600px;
   line-height: 2;
   font-weight: 300;
-  margin: 10px 0;
+  margin-top: 30px;
 }
 
 .bolder-text {
@@ -54,7 +57,7 @@
   font-weight: bold;
   font-family: Sora;
   line-height: 1.8;
-  margin: 10px 0;
+  margin-top: 25px;
 }
 
 .texto2 {
@@ -62,7 +65,7 @@
   left: 30px;
   font-size: 18px;
   line-height: 2;
-  margin: 10px 0;
+  margin-top: 25px;
 }
 
 .button-content2 {
@@ -125,8 +128,8 @@
 
 .image-background {
   position: absolute;
-  right: -80px;
-  bottom: 55%;
+  right: -90px;
+  bottom: 52%;
 }
 
 .container-part2 {
