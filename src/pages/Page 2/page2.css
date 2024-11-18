@@ -139,7 +139,7 @@
 
 .quader-white-part2 {
   width: 170px;
-  height: 7px;
+  height: 5px;
   background-color: white;
   position: relative;
 }
@@ -150,7 +150,7 @@
   bottom: 0;
   right: 0;
   width: 20px;
-  height: 7px;
+  height: 5px;
   background-color: #fff;
   transform: skewX(-50deg);
   transform-origin: bottom right;
