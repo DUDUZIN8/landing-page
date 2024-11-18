@@ -1,0 +1,236 @@
+.container5 {
+  margin-bottom: 50pc;
+}
+
+.quader-red {
+  width: 120px;
+  height: 8px;
+  background-color: red;
+  margin: 20px 0;
+  position: relative;
+  top: 10pc;
+  left: 46%;
+}
+
+.quader-red::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 8px;
+  background-color: red;
+  transform: skewX(-40deg);
+  transform-origin: bottom right;
+}
+
+.quader-red::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 8px;
+  background-color: red;
+  transform: skewX(40deg);
+  transform-origin: bottom left;
+}
+
+.texts-container {
+  position: relative;
+  top: 9pc;
+  color: black;
+}
+
+.title5 {
+  position: relative;
+  left: 41pc;
+}
+
+.text5 {
+  position: relative;
+  margin: 0 auto;
+  max-width: 880px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.message-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 15pc;
+}
+
+.item {
+  margin: 0 10px; /* Adiciona espaçamento horizontal entre os itens */
+}
+
+.message-slider .item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.quote-red {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text-message {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.image-message {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.name-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.city-message {
+  font-size: 14px;
+  color: red;
+}
+
+.container-part5 {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 38pc;
+  margin-top: 13pc;
+  color: black;
+}
+
+.quader-red2 {
+  width: 120px;
+  height: 8px;
+  background-color: red;
+  margin: 20px 0;
+  position: relative;
+  top: 1pc;
+}
+
+.title-part5 {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(to right, black, white);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.nigga {
+  color: black;
+  font-weight: bolder;
+}
+
+.px-100 {
+  max-width: 600px;
+}
+
+.highlight-2 {
+  color: red;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+.px-200 {
+  max-width: 640px;
+  margin-top: 20px;
+}
+
+.px-300 {
+  margin-top: 20px;
+}
+
+.px-400 {
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.button-content5 {
+  width: 350px;
+  padding: 10px;
+  height: 60px;
+  margin-top: 3pc;
+  margin-left: 10px;
+  background: linear-gradient(#41e45b, #04b720);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-whatsapp5 {
+  display: flex;
+  position: absolute;
+  font-family: Sora;
+  right: 36pc;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.whatsapp-image5 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  bottom: 2px;
+  left: 90%;
+}
+
+.things-container5 {
+  position: relative;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  color: black;
+  align-items: center;
+  margin: 20px 0;
+  top: 40px;
+}
+
+.things5 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.position-icon5 {
+  color: white;
+  margin-right: 8px;
+  color: black;
+  z-index: 1;
+}
+
+.guide5 {
+  color: white;
+  font-size: 1rem;
+  max-width: 150px;
+  font-family: Sora;
+  color: black;
+  margin-right: 15px;
+  z-index: 1;
+}
+
+.mobile-image {
+  width: 30%;
+  position: absolute;
+  left: 4pc;
+  bottom: -5pc;
+}

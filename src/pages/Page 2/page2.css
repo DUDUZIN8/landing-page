@@ -4,7 +4,7 @@
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Ajuste conforme necessário */
+  align-items: flex-start;
   color: #fff;
 }
 
@@ -129,7 +129,7 @@
 .image-background {
   position: absolute;
   right: -90px;
-  bottom: 65%;
+  bottom: 72%;
 }
 
 .container-part2 {
@@ -183,15 +183,15 @@
 
 .container-quaders {
   display: flex;
-  flex-direction: column; /* Coloca cada linha (quadrado + texto) uma abaixo da outra */
-  gap: 10px; /* Espaço entre cada linha */
+  flex-direction: column;
+  gap: 10px;
   margin-top: 70px;
 }
 
 .quader-container {
   display: flex;
-  align-items: center; /* Alinha o quadrado e o texto no centro verticalmente */
-  gap: 10px; /* Espaço entre o quadrado e o texto */
+  align-items: center;
+  gap: 10px;
 }
 
 .quader1,
@@ -199,8 +199,8 @@
 .quader3 {
   border: 2px solid #fff;
   padding: 10px;
-  width: 20px; /* Aumentando para melhor visualização */
-  height: 20px; /* Aumentando para melhor visualização */
+  width: 20px;
+  height: 20px;
 }
 
 .quader2 {
@@ -276,6 +276,6 @@
   height: 590px;
   border-radius: 10px;
   left: 6pc;
-  bottom: 195pc;
+  bottom: 63%;
   background-color: #fff;
 }
