@@ -129,7 +129,7 @@
 .image-background {
   position: absolute;
   right: -90px;
-  bottom: 52%;
+  bottom: 65%;
 }
 
 .container-part2 {
@@ -273,9 +273,9 @@
 .background-white {
   width: 33%;
   position: absolute;
-  height: 600px;
+  height: 590px;
   border-radius: 10px;
   left: 6pc;
-  bottom: 93pc;
+  bottom: 195pc;
   background-color: #fff;
 }
