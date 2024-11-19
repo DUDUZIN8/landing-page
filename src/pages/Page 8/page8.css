@@ -1,0 +1,18 @@
+.container8 {
+  background-color: #2f2f2f;
+  display: flex;
+  color: white;
+  margin-top: -6pc;
+}
+
+.image-logo2 {
+  width: 300px;
+  margin-left: 15pc;
+}
+
+.container-content-texts {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}

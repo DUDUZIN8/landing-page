@@ -6,6 +6,7 @@ import { Pagina4 } from '../Page 4/page4'
 import { Pagina5 } from '../Page 5/page5'
 import { Pagina6 } from '../Page 6/page6'
 import { Pagina7 } from '../Page 7/page7'
+import { Pagina8 } from '../Page 8/page8'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Pagina5 />
       <Pagina6 />
       <Pagina7 />
+      <Pagina8 />
     </>
   )
 }
