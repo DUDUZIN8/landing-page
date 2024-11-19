@@ -29,6 +29,7 @@ html {
 body {
   overflow-x: hidden;
   position: relative;
+  background-color: white !important;
   color: #fff !important;
   font-family: 'Sora', sans-serif !important;
 }

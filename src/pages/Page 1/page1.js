@@ -7,7 +7,7 @@ import './page1.css'
 
 export const Pagina = () => {
   return (
-    <div className='container'>
+    <div className='container' id='home'>
       <p className='titulo'>Capas de Antena de Alarme:</p>
       <div className='text-container'>
         <h2 className='texto'>

@@ -46,6 +46,23 @@ nav.navbar .navbar-nav .nav-link.navbar-link.active {
 .logo {
   width: 100px;
   position: absolute;
-  top: -18px;
-  left: 150px;
+  top: -40px;
+  right: 50pc;
+}
+
+@media only screen and (max-width: 768px) {
+  /* html,
+  body {
+    overflow-x: hidden;
+  } */
+
+  .logo {
+    width: 80px;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 10px;
+    position: relative;
+    right: 23pc;
+  }
 }

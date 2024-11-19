@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import './header.css'
 import { BrowserRouter as Router } from 'react-router-dom'
+import Logoo from '../../assets/img/logo.png'
 
 export const Header = () => {
   const [activeLink, setActiveLink] = useState('home')
@@ -32,6 +33,15 @@ export const Header = () => {
           <Navbar.Brand href='/'></Navbar.Brand>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
+              <Nav.Link
+                href='#home'
+                className={
+                  activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
+                }
+                onClick={() => linkActive('products')}
+              >
+                <img src={Logoo} className='logo' />
+              </Nav.Link>
               <Nav.Link
                 href='#products'
                 className={
