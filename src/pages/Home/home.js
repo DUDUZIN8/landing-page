@@ -7,6 +7,7 @@ import { Pagina5 } from '../Page 5/page5'
 import { Pagina6 } from '../Page 6/page6'
 import { Pagina7 } from '../Page 7/page7'
 import { Pagina8 } from '../Page 8/page8'
+import { Footer } from '../../components/Footer/footer'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Pagina6 />
       <Pagina7 />
       <Pagina8 />
+      <Footer />
     </>
   )
 }
