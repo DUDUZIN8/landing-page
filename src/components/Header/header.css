@@ -51,18 +51,22 @@ nav.navbar .navbar-nav .nav-link.navbar-link.active {
 }
 
 @media only screen and (max-width: 768px) {
-  /* html,
+  html,
   body {
     overflow-x: hidden;
-  } */
+  }
 
   .logo {
     width: 80px;
+    position: absolute;
+    right: 3pc;
+    top: -1pc;
   }
 
   nav.navbar .navbar-nav .nav-link.navbar-link {
-    font-size: 10px;
+    font-size: 8px;
     position: relative;
-    right: 23pc;
+    bottom: 1pc;
+    white-space: nowrap;
   }
 }
