@@ -1,0 +1,121 @@
+.container7 {
+  background-image: url('../../assets/img/red.png');
+  padding: 100px 100px 100px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 6pc;
+}
+
+.quader-big {
+  background-color: #fff;
+  width: 800px;
+  position: relative;
+  bottom: 1pc;
+  left: 2pc;
+  padding: 30px;
+  height: 800px;
+  border: solid 1px white;
+  border-radius: 15px;
+}
+
+.logo-image {
+  position: relative;
+  bottom: 65px;
+  left: 12pc;
+  width: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-quader {
+  color: black;
+  font-size: 50px;
+  margin-top: -5pc;
+  text-align: center;
+  font-weight: bold;
+}
+
+.line-black {
+  height: 2px;
+  width: 450px;
+  background-color: black;
+  margin: 30px auto;
+}
+
+.px-1000 {
+  color: black;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.px-2000 {
+  color: black;
+  margin-top: 30px;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.button-formulation-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 450px;
+  height: 50px;
+  padding: 20px;
+  background: linear-gradient(#57cb21, #3d961d);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-formulario {
+  color: white;
+  font-size: 24px;
+  font-family: Sora;
+  font-weight: 600;
+}
+
+.things-container7 {
+  position: relative;
+  left: 15px;
+  display: flex;
+  gap: 10px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+}
+
+.things7 {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.position-icon7 {
+  color: white;
+  margin-right: 8px;
+  color: black;
+  z-index: 1;
+}
+
+.guide7 {
+  color: white;
+  font-size: 1rem;
+  max-width: 150px;
+  font-family: Sora;
+  color: black;
+  margin-right: 15px;
+  z-index: 1;
+}
