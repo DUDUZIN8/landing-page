@@ -1,0 +1,96 @@
+.container6 {
+  background: linear-gradient(#ff2943, #700d06);
+  padding: 100px 20px;
+  margin-top: -33pc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.container-content6 {
+  text-align: center;
+}
+
+.title6 {
+  font-size: 12px;
+}
+
+.text6 {
+  font-size: 80px;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  padding: 15px 0;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #fff;
+  padding: 20px;
+  width: 800px;
+  background-color: white;
+  color: red;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.faq-icon {
+  font-size: 30px;
+}
+
+.faq-answer {
+  background-color: #c0c0c0;
+  height: 100px;
+  font-size: 16px;
+  color: white;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.container-six {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.title-part6 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.text-part6 {
+  max-width: 800px;
+  text-align: center;
+}
+
+.cota-container {
+  margin-top: 80px;
+}
+
+.cota-word {
+  font-size: 40px;
+  color: red;
+  background-color: white;
+  white-space: nowrap;
+  border: solid 1px white;
+}
