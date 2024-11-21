@@ -4,6 +4,7 @@ import { IoCart } from 'react-icons/io5'
 import { FaTruck } from 'react-icons/fa'
 import { PiStampFill } from 'react-icons/pi'
 import './page1.css'
+import fundo from '../../assets/img/fundo.png'
 
 export const Pagina = () => {
   return (
@@ -40,21 +41,26 @@ export const Pagina = () => {
           <p className='guide'>Resultados Comprovados</p>
         </div>
       </div>
-      <div className='container-text-black'>
-        <div className='text-black'>
-          <p>
-            ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
-            PARA TODO BRASIL
-          </p>
+      <div className='container-emblems'>
+        <div className='container-text-black'>
+          <div className='text-black'>
+            <p>
+              ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
+              PARA TODO BRASIL
+            </p>
+          </div>
+        </div>
+        <div className='container-text-red'>
+          <div className='text-red'>
+            <p className='red'>
+              ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
+              PARA TODO BRASIL
+            </p>
+          </div>
         </div>
       </div>
-      <div className='container-text-red'>
-        <div className='text-red'>
-          <p className='red'>
-            ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS PARA TODO BRASIL ▪️ ENVIAMOS
-            PARA TODO BRASIL
-          </p>
-        </div>
+      <div className='fundo-image-container'>
+        <img src={fundo} className='fundo-image' alt='Fundo' />
       </div>
     </div>
   )

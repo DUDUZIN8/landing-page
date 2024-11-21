@@ -279,3 +279,9 @@
   bottom: 470pc;
   background-color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+  .container-page2 {
+    margin-top: -256px;
+  }
+}
