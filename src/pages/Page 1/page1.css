@@ -158,7 +158,7 @@
   .fundo-image {
     position: relative;
     right: 0;
-    bottom: 74pc;
+    bottom: 53pc;
     right: 9pc;
     width: 200%;
     height: auto;
@@ -191,6 +191,20 @@
 
   .container-emblems {
     position: relative;
-    top: 40pc;
+    top: 15pc;
+  }
+
+  .button-content {
+    position: relative;
+    top: 28pc;
+  }
+
+  .button-whatsapp {
+    left: -130px;
+  }
+
+  .things-container {
+    top: 31pc;
+    left: 0;
   }
 }
